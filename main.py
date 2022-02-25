@@ -390,10 +390,9 @@ def start1(message):
 	key = types.InlineKeyboardMarkup()
 	b1=types.InlineKeyboardButton(text='Channel 📢', url='https://t.me/Freeintrn')
 	b2=types.InlineKeyboardButton(text='VIP BOT $', callback_data='vip')
-	b4=types.InlineKeyboardButton(text='GET FOLLOW', callback_data='insta')
 	b3=types.InlineKeyboardButton(text='INFO BOT', callback_data='mo')
 	key.row_width = 2
-	key.add(b2,b3,b4,b1)
+	key.add(b2,b3,b1)
 	bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text="*Hello Pro Bot Tools\nHelp To Bot Send *`!help`**",parse_mode='markdown',reply_markup=key)
 		
 
