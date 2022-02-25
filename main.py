@@ -354,7 +354,6 @@ Checked By @{user} (*`{id}`*)*""",parse_mode='markdown')
 			bot.reply_to(message,f"*CHECK TRUE ✅\n\n━━━━━━━━━━━━━\nId >> 8*`{id}`*\nCoin >> *`{coin}`*\n━━━━━━━━━━━━━\n📌 Checked By @{user} (*`{id}`*)*",parse_mode="markdown")
 		except:
 			bot.reply_to(message,f"*CHECK FALSE ❌\n\n━━━━━━━━━━━━━\nId >> 8*`{id}`*\n━━━━━━━━━━━━━\n📌 Checked By @{user} (*`{id}`*)*",parse_mode="markdown")
-	
 					
 	if '/key' in msg:
 		file_key = 'MBASBQO19WJHWIEI9' 
