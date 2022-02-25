@@ -71,7 +71,7 @@ Response: Live
 	#===========CC==========#
 	if '/ch' in msg:
 		try:
-			cc = int(msg.split(' ')[1])
+			cc = msg.split(' ')[1]
 		except:
 			pass
 		header = {
