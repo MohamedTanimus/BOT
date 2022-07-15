@@ -15,8 +15,6 @@ sudo_id = "5384214726" #id
 
 ch = '@Freeintrn' #cannel user
 #user channel
-tok = "5593144986:AAEYxTWwPUoCp4bzpO6yl49nbNlY3KW-Ay8"
-bot = telebot.TeleBot(tok)
 @bot.message_handler(commands=["start"])
 def start(message):
 	frt=message.chat.first_name
